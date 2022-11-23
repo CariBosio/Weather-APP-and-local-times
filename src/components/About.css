@@ -1,0 +1,23 @@
+.text{
+  height: 600px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family:"Roboto", sans-serif;
+  font-size: 25px;
+  flex-direction: column;
+  margin-top: 6rem;
+ 
+  color: white;
+}
+
+.raya{
+  border: 0;
+  border-top: 2px solid #999; 
+  border-bottom: 2px solid #333;
+  width: 95%;
+}
+.informacion{
+  font-size: 1.8rem;
+}

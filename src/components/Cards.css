@@ -1,0 +1,33 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+.main-container {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  grid-template-rows: 100%;
+  grid-column-gap: 16px;
+  grid-row-gap: 0px;
+  margin-top: 30px;
+}
+
+.location{
+  border-right: 1px solid white;
+  min-height: 85vh;
+  
+}
+
+.cards {
+  /* margin-top: 10px; */
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.tipo{
+  border-bottom: none;
+  font-family: 'Kalam', cursive;
+  /* margin-top: 20px; */
+  font-family: 'Poiret One', cursive;
+  font-size: 2.5rem;
+}
