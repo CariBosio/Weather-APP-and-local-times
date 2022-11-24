@@ -7,7 +7,7 @@ import Cards from "../components/Cards.jsx";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Ciudad from "../components/Ciudad";
-// import {env} from "process";
+import process from "process";
 
 
 // const apiKey = "0f6930562b3d19669a548c5e885d4df6";
