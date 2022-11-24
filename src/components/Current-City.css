@@ -7,6 +7,7 @@
   width: 90%;
   margin: auto;
   padding-top: 5rem;
+
 }
 
 .localwidget {
@@ -19,27 +20,34 @@
 }
 
 .greeting{
-	margin-top: 8rem;
+	margin: clamp(1rem, 15vh, 8rem) 1rem 0 1rem;
 	font-family: 'Tangerine', cursive;
-  font-size: 4rem;
+  /* font-size: 4rem; */
+  font-size: clamp(2rem, 7vw, 4rem);
 
-
-	
 }
 
 .local-fecha {
   font-family: Oswald, Arial;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* text-align: center; */
+  /* background-color: red; */
   padding: auto;
   width: 100%;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
+  text-align: center; */
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ 
 }
 
 .diaSemana {
   font-family: "Oswald", sans-serif !important;
-  font-size: 2rem;
+  /* font-size: 2rem; */
+  font-size: clamp(1.5rem, 5vw, 2rem);
   margin: auto;
   line-height: 1rem;
   font-weight: 100;
@@ -48,19 +56,31 @@
 
 .date-fecha {
   font-family: "Oswald", sans-serif !important;
-  font-size: 2rem;
-  margin: auto;
+  /* font-size: 2rem; */
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  /* margin: auto; */
   line-height: 2rem;
   font-weight: 100;
+  
+  
+
+  
+  
 }
 
 .reloj {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  justify-content: center;
-  margin: 5rem auto;
+  justify-content: center; */
+  margin: clamp(1rem, 5vh, 5rem) auto;
   /* background-color: brown; */
   height: auto;
+
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -77,8 +97,9 @@
 }
 
 .horas, .minutos{
-	font-size: 4.5rem !important;
-	margin: 10px;
+	/* font-size: 4.5rem !important; */
+	font-size: clamp(1.5rem, 7vw, 4.5rem) !important;
+  margin: 5px;
 	
 }
 

@@ -53,18 +53,18 @@ export default function CurrentCity() {
     pDia.textContent = dia;
 
     var meses = [
-      "Enero",
-      "Febrero",
-      "Marzo",
-      "Abril",
-      "Mayo",
-      "Junio",
-      "Julio",
-      "Agosto",
-      "Septiembre",
-      "Octubre",
-      "Noviembre",
-      "Diciembre",
+      "Ene",
+      "Feb",
+      "Mar",
+      "Abr",
+      "May",
+      "Jun",
+      "Jul",
+      "Ago",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dic",
     ];
     pMes.textContent = meses[mes];
 
@@ -137,9 +137,9 @@ export default function CurrentCity() {
           <br />
           <div className="local-fecha">
             <p id="dia" className="date-fecha"></p>
-            <p className="date-fecha">de</p>
+            <p className="date-fecha">/</p>
             <p id="mes" className="date-fecha"></p>
-            <p className="date-fecha">del</p>
+            <p className="date-fecha">/</p>
             <p id="year" className="date-fecha"></p>
           </div>
           <div className="reloj">
@@ -151,7 +151,7 @@ export default function CurrentCity() {
             </div>
             <div className="caja-segundos">
               <p id="segundos" className="segundos"></p>
-              <p id="ampm" class="date-time"></p>
+              <p id="ampm" class="segundos"></p>
             </div>
           </div>
         </div>
