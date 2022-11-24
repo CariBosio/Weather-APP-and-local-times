@@ -7,11 +7,11 @@ import Cards from "../components/Cards.jsx";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Ciudad from "../components/Ciudad";
-import process from "process";
+
 
 
 // const apiKey = "0f6930562b3d19669a548c5e885d4df6";
-const apiKey=process.env['apiKey']
+const apiKey = process.env.REACT_APP_apiKey;
 
 
 function App() {
