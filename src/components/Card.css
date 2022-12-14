@@ -43,12 +43,12 @@
 }
 
 .card-title {
-  margin-bottom: 15px;
+  margin-bottom: 0.938rem;
   color: white;
   text-decoration: none !important;
   /* text-transform: uppercase; */
   border-bottom: 1px solid white;
-  padding-bottom: 10px;
+  padding-bottom: 0.625rem;
   font-size: 2rem;
   font-weight: 500;
   line-height: 1.2;
@@ -59,8 +59,8 @@
 #closeIcon {
   display: flex;
   justify-content: flex-end !important;
-  margin-right: 8px;
-  margin-top: 8px;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .card-body {
@@ -70,18 +70,14 @@
 }
 
 .card-temp {
-  /* display: flex;
-  justify-content: flex-end;
-  margin-right: 8px;
-  margin-top: 8px; */
-  font-size: 150px;
+  font-size: 9.375rem;
   text-align: center;
   font-weight: 500;
-  line-height: 230px;
+  line-height: 14.375rem;
   color: white;
   /* color: black; */
   font-family: "Roboto", sans-serif;
-  border-bottom: 1px solid white;
+  border-bottom: 0.063rem solid white;
 }
 
 p{
@@ -93,13 +89,13 @@ p{
 .btn{
   background-color: #354f52 !important;
   border-color: white !important;
-  margin-right: 8px;
+  margin-right: 0.5rem;
 
   
 }
 
 #time{
   color:white;
-  font-size: 20px;
-  margin-top: 30px;
+  font-size: 1.25rem;
+  margin-top: 1.875rem;
 }
