@@ -8,11 +8,9 @@ import About from "../components/About";
 import Contact from "../components/Contact";
 import Ciudad from "../components/Ciudad";
 
-
-
 // const apiKey = "0f6930562b3d19669a548c5e885d4df6";
-const apiKey = process.env.REACT_APP_apiKey;
 
+const apiKey = process.env.REACT_APP_apiKey;
 
 function App() {
   const [cities, setCities] = useState([]);
@@ -41,7 +39,7 @@ function App() {
             humidity: recurso.main.humidity,
             latitud: recurso.coord.lat,
             longitud: recurso.coord.lon,
-            timezone: recurso.timezone/3600,
+            timezone: recurso.timezone / 3600,
           };
           setCities((oldCities) => [...oldCities, ciudad]);
         } else {
@@ -92,8 +90,6 @@ function App() {
             <Ciudad city={onFilter(match.params.ciudadId)} />
           )}
         />
-
-        
       </div>
       <div>
         <footer>
